@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(252, 5, 5);
+}
+
+h2 {
+    display: flex;
+    font-size: 30px;
+}
