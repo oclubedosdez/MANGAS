@@ -36,17 +36,6 @@ button:hover {
     gap: 4%;
     flex-wrap: wrap;
 }
-img {
-    width: 200px;
-    height: 300px;
-    cursor: pointer;
-    transition: 0.60s ease-in-out;
-}
-img:hover {
-    transform: scale(1.1);
-    filter: brightness(80%);
-}
-/*iframe*/
 .img {
     width: 200px;
     height: 300px;
@@ -57,7 +46,6 @@ img:hover {
     transform: scale(1.1);
     filter: brightness(80%);
 }
-/*iframe*/
 .imagem {
     /* border: 1px solid white; */
     width: 200px;
@@ -138,3 +126,53 @@ img:hover {
     width: 80px;
     border-radius: 0px 10px 10px 0px;
 }
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+
+
+/*menu*/
+
+nav {
+    display: flex;
+    gap: 2%;
+    background-color: white;
+    width: 100vw;
+    max-width: 100vw;
+    padding-left: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+
+nav img {
+    width: 7%;
+}
+nav a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+nav ul {
+    width: 400px;
+    color: black;
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    font-family: Oswald;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: -50px;
+}
+
+nav ul li:hover {
+    color: brown;
+}
+
+
+
