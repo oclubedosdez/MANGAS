@@ -791,6 +791,10 @@ botaoK.onclick = function() {
     U.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+	
+	L.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
 }
 
 botaoL.onclick = function() {
@@ -1256,6 +1260,9 @@ botaoR.onclick = function() {
     U.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+    L.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
 }
 
 botaoS.onclick = function() {
@@ -1386,6 +1393,9 @@ botaoT.onclick = function() {
         botao.classList.remove('invisivel')
     })
     U.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
         botao.classList.add('invisivel')
     })
 }

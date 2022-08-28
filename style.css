@@ -37,6 +37,7 @@ button:hover {
     flex-wrap: wrap;
 }
 .img {
+	border-radius: 10px;
     width: 200px;
     height: 300px;
     cursor: pointer;
@@ -50,7 +51,8 @@ button:hover {
     /* border: 1px solid white; */
     width: 200px;
     height: 300px;
-    overflow: hidden; 
+    overflow: hidden;
+    border-radius: 10px;	
 }
 .manhaw::after {
     content: "MANHAW";
@@ -63,6 +65,7 @@ button:hover {
     font-size: 15px;
     padding: 0px 5px;
     top: 1.30rem;
+	border-radius: 5px 0px 0px 0px;
 }
 .manga::after {
     content: "MANGA";
@@ -75,6 +78,7 @@ button:hover {
     font-size: 15px;
     padding: 0px 5px;
     top: 1.30rem;
+	border-radius: 5px 0px 0px 0px;
 }
 
 
@@ -124,7 +128,11 @@ button:hover {
     left: -55px;
     padding: 0px 5px;
     width: 80px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 10px 10px 5px;
+}
+
+.completo2 {
+	left: -68px;
 }
 
 a {

@@ -1,0 +1,426 @@
+body {
+    font-family: arial;
+    color: #222
+}
+
+a:hover {
+    text-decoration: none
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.clear,
+.clear10,
+.clear20,
+.clear30,
+.clear40,
+.clear50 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    clear: both
+}
+
+.clear10 {
+    height: 10px
+}
+
+.clear20 {
+    height: 20px
+}
+
+.clear30 {
+    height: 30px
+}
+
+.clear40 {
+    height: 40px
+}
+
+.clear50 {
+    height: 50px
+}
+
+#header {
+    padding: 10px 0;
+    border-bottom: solid 1px #eee;
+    background: #fff
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.menu li {
+    display: inline-block
+}
+
+.menu a {
+    font-size: 14px;
+    color: #777;
+    padding: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 100%;
+    float: left
+}
+
+.logo {
+    margin-top: 10px
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #222
+}
+
+#campoBusca input {
+    margin-top: 10px;
+    position: relative;
+    width: 100%
+}
+
+#campoBusca button {
+    border: none;
+    background: 0 0;
+    position: absolute;
+    right: 20px;
+    top: 20px
+}
+
+#header input[type=text] {
+    padding: 10px;
+    border-radius: 0;
+    border: none;
+    border: solid 1px #eee;
+    width: 100%
+}
+
+input#busca {
+    padding: 15px 10px;
+    border-radius: 0;
+    border: none;
+    border: solid 1px #eee;
+    width: 100%
+}
+
+.home-title {
+    font-size: 18px;
+    color: #51a8b1;
+    font-weight: 800;
+    margin: 20px 0;
+    text-transform: uppercase
+}
+
+#slide {
+    background: #51a8b1;
+    color: #fff
+}
+
+#slide .item {
+    padding: 20px 0
+}
+
+#slide .carousel-control {
+    margin-top: 150px
+}
+
+.manga-atualizacao div {
+    position: static
+}
+
+.manga-atualizacao {
+    position: relative;
+    height: auto;
+    float: left;
+    width: 100%;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    min-height: 320px
+}
+
+.manga-atualizacao h3 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: #777;
+    font-weight: 400
+}
+
+.manga-atualizacao .capitulos {
+    padding: 4px;
+    background: #51a8b1;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    float: left;
+    margin: 2px
+}
+
+.manga-atualizacao .data-publicacao {
+    width: 100%;
+    color: #777
+}
+
+#bg-publicidade {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #eee
+}
+
+.breadcrumbs {
+    width: 100%;
+    height: auto;
+    background: #0062ff;
+    padding: 20px 0;
+    color: #fff
+}
+
+.breadcrumbs h1 {
+    margin: 0;
+    font-size: 25px
+}
+
+.breadcrumbs a {
+    color: #fff
+}
+
+.manga-novo {
+    font-size: 12px;
+    color: #777;
+    padding-bottom: 20px;
+    text-align: justify;
+    margin-bottom: 20px
+}
+
+.manga-novo h2 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: #777
+}
+
+.manga-novo h3 {
+    font-size: 14px;
+    color: #777;
+    padding-top: 0;
+    margin-top: 0
+}
+
+#footer {
+    margin-top: 40px;
+    color: #777;
+    font-size: 14px;
+    border-top: solid 1px #eee;
+    padding-top: 40px
+}
+
+.subir {
+    font-size: 14px;
+    cursor: pointer
+}
+
+.manga {
+    position: relative
+}
+
+.manga .shadow {
+    width: 100%;
+    background: url(../img/shadow.png) left top repeat-x;
+    position: absolute;
+    bottom: 0;
+    height: 90px;
+    left: 0;
+    padding: 10px;
+    text-align: center
+}
+
+.manga h3 {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 700
+}
+
+.topmangas {
+    position: relative
+}
+
+.topmangas .shadow {
+    width: 100%;
+    background: url(../img/shadow.png) left bottom repeat-x;
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    left: 0;
+    padding: 10px;
+    text-align: center
+}
+
+.topmangas h3 {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 700
+}
+
+.topmangas h2 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 30px;
+    font-weight: 700
+}
+
+.item-topmangas {
+    list-style: none
+}
+
+.capitulos li {
+    border-bottom: solid 1px #eee;
+    padding: 10px 0
+}
+
+.img-manga {
+    display: none;
+    min-width: 51%
+}
+
+.img-manga:first-child {
+    display: inline
+}
+
+.capitulos li {
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+.capitulos li:hover {
+    background: #eee
+}
+
+.capitulos li:hover a {
+    color: #000
+}
+
+.titulo-leitura {
+    font-size: 16px
+}
+
+.lista {
+    list-style: disc;
+    margin-left: 20px
+}
+
+.load {
+    display: none
+}
+
+.buscaManga {
+    padding: 30px !important;
+    width: 100%;
+    float: left
+}
+
+#mangas {
+    width: 100%;
+    text-align: center
+}
+
+.mangas {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    width: 11%;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    z-index: 0
+}
+
+.mangas:hover {
+    position: relative;
+    z-index: 1000;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.anuncio-quadrado {
+    display: none
+}
+
+@media(max-width:1500px) {
+    .mangas {
+        width: 12%
+    }
+}
+
+@media(max-width:1300px) {
+    .mangas {
+        width: 15%
+    }
+}
+
+@media(max-width:991px) {
+    .mangas {
+        width: 24%
+    }
+}
+
+@media(max-width:780px) {
+    .mangas {
+        width: 32%
+    }
+
+    .anuncio-retangulo {
+        display: none
+    }
+
+    .anuncio-quadrado {
+        display: block
+    }
+}
+
+@media(max-width:650px) {
+    .mangas {
+        width: 48%
+    }
+}
+
+#paginaAtual {
+    display: none
+}
+
+.carousel-control.right {
+    background-image: none
+}
+
+.carousel-control.left {
+    background-image: none
+}
+
+.boo-widget.custom.bbb {
+    margin: auto !important
+}
+
+.boo-widget.custom.bbh {
+    margin: auto !important
+}
