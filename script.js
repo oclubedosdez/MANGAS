@@ -1,3 +1,7 @@
+
+
+
+
 botaoA.onclick = function() {
     A.forEach((botao) => {
         botao.classList.remove('invisivel')
@@ -33,6 +37,9 @@ botaoA.onclick = function() {
         botao.classList.toggle('invisivel')
     })
     K.forEach((botao) => {
+        botao.classList.toggle('invisivel')
+    })
+	L.forEach((botao) => {
         botao.classList.toggle('invisivel')
     })
     M.forEach((botao) => {
@@ -100,6 +107,9 @@ botaoV.onclick = function() {
     })
     K.forEach((botao) => {
         botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
     })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
@@ -170,6 +180,9 @@ botaoB.onclick = function() {
     K.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
+    })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
@@ -235,6 +248,9 @@ botaoC.onclick = function() {
     })
     K.forEach((botao) => {
         botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
     })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
@@ -302,6 +318,9 @@ botaoD.onclick = function() {
     K.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
+    })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
@@ -367,6 +386,9 @@ botaoE.onclick = function() {
     })
     K.forEach((botao) => {
         botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
     })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
@@ -434,6 +456,9 @@ botaoF.onclick = function() {
     K.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
+    })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
@@ -499,6 +524,9 @@ botaoG.onclick = function() {
     })
     K.forEach((botao) => {
         botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
     })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
@@ -566,6 +594,9 @@ botaoH.onclick = function() {
     K.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
+    })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
@@ -632,6 +663,9 @@ botaoI.onclick = function() {
     K.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
+    })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
@@ -657,6 +691,9 @@ botaoI.onclick = function() {
         botao.classList.add('invisivel')
     })
     U.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
+    W.forEach((botao) => {
         botao.classList.add('invisivel')
     })
 }
@@ -697,6 +734,9 @@ botaoJ.onclick = function() {
     })
     K.forEach((botao) => {
         botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
     })
     M.forEach((botao) => {
         botao.classList.add('invisivel')
@@ -873,6 +913,9 @@ botaoM.onclick = function() {
     K.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
+    })
     J.forEach((botao) => {
         botao.classList.add('invisivel')
     })
@@ -942,6 +985,9 @@ botaoN.onclick = function() {
     K.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
+    })
     J.forEach((botao) => {
         botao.classList.add('invisivel')
     })
@@ -1008,6 +1054,9 @@ botaoO.onclick = function() {
     K.forEach((botao) => {
         botao.classList.add('invisivel')
     })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
+    })
     J.forEach((botao) => {
         botao.classList.add('invisivel')
     })
@@ -1071,11 +1120,14 @@ botaoP.onclick = function() {
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    K.forEach((botao) => {
-        botao.classList.add('invisivel')
-    })
     J.forEach((botao) => {
         botao.classList.add('invisivel')
+    })
+	K.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
     })
     I.forEach((botao) => {
         botao.classList.add('invisivel')
@@ -1134,11 +1186,15 @@ botaoQ.onclick = function() {
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    K.forEach((botao) => {
-        botao.classList.add('invisivel')
-    })
+	
     J.forEach((botao) => {
         botao.classList.add('invisivel')
+    })
+	K.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
+        botao.classList.toggle('invisivel')
     })
     I.forEach((botao) => {
         botao.classList.add('invisivel')
@@ -1200,10 +1256,13 @@ botaoR.onclick = function() {
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    K.forEach((botao) => {
+    J.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    J.forEach((botao) => {
+	K.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
         botao.classList.add('invisivel')
     })
     I.forEach((botao) => {
@@ -1269,10 +1328,13 @@ botaoS.onclick = function() {
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    K.forEach((botao) => {
+    J.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    J.forEach((botao) => {
+	K.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
         botao.classList.add('invisivel')
     })
     I.forEach((botao) => {
@@ -1335,10 +1397,13 @@ botaoT.onclick = function() {
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    K.forEach((botao) => {
+    J.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    J.forEach((botao) => {
+	K.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
         botao.classList.add('invisivel')
     })
     I.forEach((botao) => {
@@ -1404,10 +1469,13 @@ botaoU.onclick = function() {
     M.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    K.forEach((botao) => {
+    J.forEach((botao) => {
         botao.classList.add('invisivel')
     })
-    J.forEach((botao) => {
+	K.forEach((botao) => {
+        botao.classList.add('invisivel')
+    })
+	L.forEach((botao) => {
         botao.classList.add('invisivel')
     })
     I.forEach((botao) => {
@@ -1465,6 +1533,8 @@ botaoU.onclick = function() {
         botao.classList.remove('invisivel')
     })
 }
+
+
 
 
 

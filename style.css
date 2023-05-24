@@ -3,6 +3,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     color: white;
+    margin: 10px;
 }
 header h1{
     font-size: 30px;
@@ -82,64 +83,82 @@ button:hover {
 }
 
 
-.texto {
-    display: flex;
-    /* border: 1px solid white; */
-    width: 12.30rem;
-    margin-top: 0px;
-    padding-top: 1px;
-    justify-content: center;
-}
-
-.texto-pequeno {
-    margin-top: -5px;  
-}
-.texto-medio {
-    padding-top: 5px;    
-}
-.texto-grande {
-    padding-top: 12px;    
-}
-.texto-muito-grande {
-    padding-top: 18px;
-}
-
 .texto p {
+    position: relative;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    transform: translateY(-30%);
-    line-height: 19px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    width: 12.22rem;
     text-align: center;
+    justify-content: center;
+    top: -1rem;
 }
 
 .invisivel {
     display: none;
 }
 
-
-.completo{
+.ativo{
+    content: "";
+    position: absolute;
     z-index: 1000;
-    position: relative;
-    background-color: rgb(0, 185, 185);
-    font-size: 18px;
+    color: white;
+    background: rgb(17, 147, 0);
+    width: 140px;
+    height: 15px;
+    padding: 4px;
+    /* left: 30rem;
+    top: 10rem; */
+    letter-spacing: 3px;
+    font-size: 14px;
     font-family: sans-serif;
-    top: 18.80rem;
-    left: -55px;
-    padding: 0px 5px;
-    width: 80px;
-    border-radius: 0px 10px 10px 5px;
+    border-radius: 0px 10px 10px 0px;
+    transform: translate(-51px,296px);
+    font-weight: bold;
+}
+.ativo2 {
+    margin-left: -10px;
+    width: 170px;
 }
 
+
+.completo::after {
+    content: "Completo";
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    background: rgb(0, 172, 184);
+    width: 100px;
+    height: 15px;
+    padding: 4px;
+    /* left: 30rem;
+    top: 10rem; */
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 0px 10px 10px 0px;
+    transform: translate(-51px,290px);
+    font-weight: bold;
+}
+
+
+
 .completo2 {
-	left: -68px;
+	margin-left: -0.7rem;
 }
 
 a {
     color: rgb(255, 255, 255);
     font-size: 25px;
 }
-
+.box {
+    border: 1px solid rgba(255, 0, 0, 0);
+    height: 400px;
+    margin-bottom: 20px;
+}
 
 
 /*menu*/
@@ -181,6 +200,14 @@ nav ul {
 nav ul li:hover {
     color: brown;
 }
+
+/* .estatus {
+    background-color: rgb(123, 255, 0);
+    width: 80px;
+    position: absolute;
+    z-index: 100000;
+    top: 20px;
+} */
 
 
 

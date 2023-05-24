@@ -1,0 +1,186 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: white;
+}
+header h1{
+    font-size: 30px;
+    font-family: Oswald;
+}
+button {
+    font-weight: bold;
+    font-family: Oswald;
+    width: 90px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(0, 229, 255);
+    border-radius: 4px;
+    transition: all 0.50s;
+}
+button:hover {
+    background-color: rgb(255, 255, 255);
+}
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    width: 900px;
+}
+.container {
+    margin-left: 1%;
+    width: 100%;
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+.img {
+	border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.60s ease-in-out;
+}
+.img:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+.imagem {
+    /* border: 1px solid white; */
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;	
+}
+.manhaw::after {
+    content: "MANHAW";
+    z-index: 1000;
+    position: relative;
+    background: red;
+    color: white;
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0px 5px;
+    top: 1.30rem;
+	border-radius: 5px 0px 0px 0px;
+}
+.manga::after {
+    content: "MANGA";
+    z-index: 1000;
+    position: relative;
+    background: rgb(0, 143, 2);
+    color: white;
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0px 5px;
+    top: 1.30rem;
+	border-radius: 5px 0px 0px 0px;
+}
+
+
+.texto {
+    display: flex;
+    /* border: 1px solid white; */
+    width: 12.30rem;
+    margin-top: 0px;
+    padding-top: 1px;
+    justify-content: center;
+}
+
+.texto-pequeno {
+    margin-top: -5px;  
+}
+.texto-medio {
+    padding-top: 5px;    
+}
+.texto-grande {
+    padding-top: 12px;    
+}
+.texto-muito-grande {
+    padding-top: 18px;
+}
+
+.texto p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transform: translateY(-30%);
+    line-height: 19px;
+    text-align: center;
+}
+
+.invisivel {
+    display: none;
+}
+
+
+.completo{
+    z-index: 1000;
+    position: relative;
+    background-color: rgb(0, 185, 185);
+    font-size: 18px;
+    font-family: sans-serif;
+    top: 18.80rem;
+    left: -55px;
+    padding: 0px 5px;
+    width: 80px;
+    border-radius: 0px 10px 10px 5px;
+}
+
+.completo2 {
+	left: -68px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+
+
+/*menu*/
+
+nav {
+    display: flex;
+    gap: 2%;
+    background-color: white;
+    width: 100vw;
+    max-width: 100vw;
+    padding-left: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+
+nav img {
+    width: 7%;
+}
+nav a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+nav ul {
+    width: 400px;
+    color: black;
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    font-family: Oswald;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: -50px;
+}
+
+nav ul li:hover {
+    color: brown;
+}
+
+
+
