@@ -4,7 +4,7 @@ let mangas_e_manhaws = [
 	{
         "id":"A",
         "nome":"A Returner's Magic Should Be Special",
-        "img":"A Returner's Magic Should Be Special.jpg",
+        "img":"a returner's magic should be special.jpg",
         "tipo":"manhaw",
 		"simbolo" : "",
         "status" : "ativo ativo2",
