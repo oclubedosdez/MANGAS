@@ -13,7 +13,7 @@ let mangas_e_manhaws = [
     {
         "id":"D",
         "nome":"Domestic na kanojo",
-        "img":"Domestic na kanojo.webp",
+        "img":"domestic na kanojo.webp",
         "tipo":"manga",
 		"simbolo" : "",
         "status" : "completo",
